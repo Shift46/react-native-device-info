@@ -366,6 +366,12 @@ export default {
   getDeviceId: function() {
     return RNDeviceInfo.deviceId;
   },
+  getHardware: function() {
+    return RNDeviceInfo.hardware;
+  },
+  getDevice: function() {
+    return RNDeviceInfo.device;
+  },
   getManufacturer: function() {
     return RNDeviceInfo.systemManufacturer;
   },

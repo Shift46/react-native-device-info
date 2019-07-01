@@ -8,6 +8,8 @@ declare module.exports: {
   getBrand: () => string,
   getModel: () => string,
   getDeviceId: () => string,
+  getHardware: () => string,
+  getDevice: () => string,
   getSystemName: () => string,
   getSystemVersion: () => string,
   getBuildId: () => string,

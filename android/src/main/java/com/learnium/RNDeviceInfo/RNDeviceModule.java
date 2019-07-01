@@ -478,6 +478,8 @@ public class RNDeviceModule extends ReactContextBaseJavaModule {
     constants.put("brand", Build.BRAND);
     constants.put("buildId", Build.ID);
     constants.put("deviceId", Build.BOARD);
+    constants.put("hardware", Build.HARDWARE);
+    constants.put("device", Build.DEVICE);
     constants.put("apiLevel", Build.VERSION.SDK_INT);
     constants.put("deviceLocale", this.getCurrentLanguage());
     constants.put("preferredLocales", this.getPreferredLocales());
